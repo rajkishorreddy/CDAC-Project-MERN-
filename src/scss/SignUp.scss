@@ -1,0 +1,120 @@
+.formbody {
+  background: #ebecf0;
+  height: 90vh;
+  position: relative;
+}
+.loginForm,
+.signupFrom {
+  padding: 16px;
+  width: 320px;
+  position: absolute;
+  right: 20rem;
+}
+div,
+p {
+  color: #babecc;
+  text-shadow: 1px 1px 1px #fff;
+}
+.segment {
+  padding: 32px 0;
+  text-align: center;
+}
+
+button,
+input {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  border-radius: 320px;
+  padding: 16px;
+  background-color: #ebecf0;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+label {
+  display: block;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+input {
+  margin-right: 8px;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  appearance: none;
+  -webkit-appearance: none;
+}
+input:focus {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+button {
+  color: #61677c;
+  font-weight: bold;
+  box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+  margin: 1rem;
+}
+button:hover {
+  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+}
+button:active {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+button.red {
+  display: block;
+  width: 100%;
+  color: #ae1100;
+}
+.welcome {
+  position: absolute;
+  font-size: 7rem;
+  font-weight: 500;
+  top: 7rem;
+  left: 0;
+  color: rgba(0, 0, 0, 0.336);
+  letter-spacing: 1rem;
+  font-family: inherit;
+}
+.back {
+  position: absolute;
+  left: 17rem;
+}
+.account {
+  position: absolute;
+  bottom: 14rem;
+  left: 15rem;
+  background: #ebecf0;
+  background: #e0e0e0;
+  box-shadow: 14px 14px 27px #bebebe, -14px -14px 27px #ffffff;
+  padding: 1rem;
+  border-radius: 14px;
+  transition: all 0.4s;
+  &-heading {
+    font-weight: 400;
+    color: black;
+  }
+  &-link {
+    text-decoration: none;
+    color: #ae1100;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-left: 10rem;
+  }
+}
+.account:hover {
+  box-shadow: 7px 7px 13px #bebebe, -7px -7px 13px #ffffff;
+}
+.easy {
+  font-weight: 400;
+  color: black;
+  position: absolute;
+  bottom: 29rem;
+  left: 34rem;
+  font-size: 2rem;
+}

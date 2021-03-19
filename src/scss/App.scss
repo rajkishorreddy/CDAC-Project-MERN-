@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 63.5%;
+  box-sizing: inherit;
+}
+body {
+  line-height: 1.6;
+  font-family: "Montserrat", sans-serif;
+}
+.body {
+  width: 97.5vw;
+  height: 95vh;
+  //background: #e0efeb;
+  background-color: #ebecf0;
+
+  margin: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+.text {
+  font-size: 15rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: #e0efeb;
+  text-shadow: -8px -8px 12px rgba(255, 255, 255, 0.4),
+    8px 8px 8px rgba(0, 0, 0, 0.08);
+  caret-color: #262626;
+  &-small {
+    font-size: 10rem;
+    position: absolute;
+    top: 26rem;
+    left: 2rem;
+  }
+}
+.signup {
+  text-decoration: none;
+  color: black;
+  border-radius: 50px;
+  background: #e0efeb;
+  box-shadow: 8px 8px 15px #bebebe, inset -8px -8px 15px #ffffff;
+  padding: 1rem 2rem 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  position: absolute;
+  bottom: 5rem;
+  left: 5rem;
+}
+.login {
+  text-decoration: none;
+  color: black;
+  border-radius: 50px;
+  background: #e0efeb;
+  box-shadow: 8px 8px 15px #bebebe, inset -8px -8px 15px #ffffff;
+  padding: 1rem 2rem 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  position: absolute;
+  bottom: 5rem;
+  left: 30rem;
+}
+.animated-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  overflow: hidden;
+  z-index: -1;
+}
+.animated-area span {
+  position: absolute;
+  top: 0;
+  width: 1px;
+  height: 20rem;
+  background-image: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(7, 7, 7, 0.37)
+  );
+  animation: shower 3s linear infinite;
+}
+
+@keyframes shower {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(500%);
+  }
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: black;
+}
